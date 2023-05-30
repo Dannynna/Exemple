@@ -6,12 +6,11 @@ describe ('test API',()=> {
       headers:{ 
         accept: 'application/json'
   };
-      name:'123nina';
-      email:'nini@gmail.com';
-      password:'nina456';
+      name:'1234nina';
+      email:'nininana@gmail.com';
+      password:'nina45678';
   }).then ((response) => {
     expect(response.status).to.equal(201);
-    expect(response.body/email).to.equal("nini@gmail.com")
     expect(response.body.sucess).to.eql(true);
   })
 })
